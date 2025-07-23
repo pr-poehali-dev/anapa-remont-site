@@ -15,8 +15,8 @@ const CalculatorSection = () => {
   const calculatePrice = () => {
     const basePrice = {
       cosmetic: 15000,
-      capital: 35000,
-      luxury: 60000
+      capital: 20000,
+      luxury: 26000
     };
     
     const multiplier = rooms * 0.3 + 1;
@@ -141,7 +141,7 @@ const CalculatorSection = () => {
                           </div>
                           <div>
                             <Label htmlFor="calc-phone" className="text-construction-black">Телефон</Label>
-                            <Input id="calc-phone" placeholder="+7 (999) 999-99-99" />
+                            <Input id="calc-phone" placeholder="+7 (938) 422-06-96" />
                           </div>
                           <div>
                             <Label htmlFor="calc-address" className="text-construction-black">Адрес объекта</Label>
