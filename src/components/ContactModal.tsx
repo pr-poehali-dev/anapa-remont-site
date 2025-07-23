@@ -32,7 +32,7 @@ const ContactModal = ({ onClose }: ContactModalProps) => {
           <Label htmlFor="phone" className="text-construction-black">Телефон</Label>
           <Input 
             id="phone" 
-            placeholder="+7 (999) 999-99-99"
+            placeholder="+7 (938) 422-06-96"
             className="border-gray-300 focus:border-construction-black"
           />
         </div>

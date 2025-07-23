@@ -18,7 +18,7 @@ const Footer = () => {
                 variant="outline" 
                 size="sm"
                 className="bg-green-500 hover:bg-green-600 text-white border-green-500"
-                onClick={() => window.open('https://wa.me/79999999999', '_blank')}
+                onClick={() => window.open('https://wa.me/79384220696', '_blank')}
               >
                 <Icon name="MessageCircle" size={16} />
               </Button>
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center gap-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (999) 999-99-99</span>
+                <span>+7 (938) 422-06-96</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
