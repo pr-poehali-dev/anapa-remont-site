@@ -38,7 +38,7 @@ const Header = () => {
             variant="outline" 
             size="sm"
             className="bg-pink-500 hover:bg-pink-600 text-white border-pink-500"
-            onClick={() => window.open('https://instagram.com/rd_anapa?igsh=ZWkzM2x6aGpybmU5', '_blank')}
+            onClick={() => window.open('https://instagram.com/rd_anapa', '_blank')}
           >
             <Icon name="Instagram" size={16} className="mr-2" />
             Instagram
