@@ -18,7 +18,7 @@ const Index = () => {
     <div 
       className="min-h-screen font-roboto relative"
       style={{
-        backgroundImage: 'url(https://cdn.poehali.dev/files/165a8553-1117-45e0-b670-214f28fa812a.jpeg)',
+        backgroundImage: 'url(/img/9b1d4b54-aac3-4f50-81a2-c8b46852da73.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
