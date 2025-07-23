@@ -10,6 +10,13 @@ const HeroSection = ({ onModalOpen }: HeroSectionProps) => {
   return (
     <section className="py-20 px-4 bg-gradient-to-br from-beige to-white">
       <div className="container mx-auto text-center">
+        <div className="mb-8 animate-fade-in">
+          <img 
+            src="https://cdn.poehali.dev/files/e47f6115-10c2-4de8-acb5-830126c5d7ad.jpeg" 
+            alt="Ремонт и Дизайн" 
+            className="h-24 md:h-32 w-auto mx-auto mb-6"
+          />
+        </div>
         <h1 className="font-montserrat font-bold text-5xl md:text-6xl text-construction-black mb-6 animate-fade-in">
           Ремонт и дизайн квартир
           <br />
