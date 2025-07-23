@@ -11,24 +11,30 @@ const PortfolioSection = ({ selectedImage, onImageSelect, onImageClose }: Portfo
   const portfolioItems = [
     {
       id: 1,
+      title: "Современная гостиная",
+      image: "https://cdn.poehali.dev/files/52bca8cd-d59e-4914-84d4-86f624598356.jpeg",
+      description: "Дизайн гостиной в бежевых тонах с видом на море"
+    },
+    {
+      id: 2,
       title: "Квартира в новостройке",
       image: "/img/42a08515-b685-41b6-8732-6523dc3e32a9.jpg",
       description: "Дизайн и ремонт 2-комнатной квартиры 65 м²"
     },
     {
-      id: 2,
+      id: 3,
       title: "Спальня у моря",
       image: "/img/a3bf1e56-5f4a-4b70-b2d2-079ab03b8dbc.jpg", 
       description: "Современный дизайн спальни 25 м²"
     },
     {
-      id: 3,
+      id: 4,
       title: "Кухня-гостиная",
       image: "/img/6872247b-589c-4fe3-a1be-3d5feec90790.jpg",
       description: "Современная кухня 30 м²"
     },
     {
-      id: 4,
+      id: 5,
       title: "Ванная комната",
       image: "/img/16ede625-8e84-4f26-bf13-0c45fa327eeb.jpg",
       description: "Дизайн ванной комнаты 8 м²"

@@ -19,13 +19,25 @@ export default {
 		},
 		extend: {
 			colors: {
-				// Цветовая схема для строительной компании
-				beige: '#F5F5DC',
+				// Обновленная цветовая схема - теплые бежевые тона
+				beige: {
+					50: '#FAF9F7',
+					100: '#F5F2ED', 
+					200: '#EDE6DC',
+					300: '#E5D9CB',
+					400: '#D6C4A8',
+					500: '#C7AF85', // Основной бежевый
+					600: '#B39E77',
+					700: '#9A8A69',
+					800: '#81765B',
+					900: '#68614D'
+				},
 				construction: {
-					beige: '#F5F5DC',
+					beige: '#F5F2ED',
 					white: '#FFFFFF',
 					black: '#000000',
-					gray: '#8E9196'
+					gray: '#8E9196',
+					warm: '#C7AF85'
 				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
