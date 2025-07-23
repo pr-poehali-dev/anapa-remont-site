@@ -47,9 +47,9 @@ const CalculatorSection = () => {
                     </Label>
                     <div className="grid grid-cols-1 gap-3">
                       {[
-                        { value: 'cosmetic', label: 'Косметический', desc: 'Покраска, обои, плитка' },
-                        { value: 'capital', label: 'Капитальный', desc: 'Перепланировка, сантехника' },
-                        { value: 'luxury', label: 'Премиум', desc: 'Дизайнерский ремонт' }
+                        { value: 'cosmetic', label: 'Стандарт', desc: 'Покраска, обои, плитка' },
+                        { value: 'capital', label: 'Стандарт +', desc: 'Перепланировка, сантехника' },
+                        { value: 'luxury', label: 'Дизайнерский', desc: 'Дизайнерский ремонт' }
                       ].map((type) => (
                         <Button
                           key={type.value}
