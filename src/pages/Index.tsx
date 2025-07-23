@@ -15,7 +15,7 @@ const Index = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <div className="min-h-screen bg-beige-100 font-roboto">
+    <div className="min-h-screen bg-beige-300 font-roboto">
       <Header />
       
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
