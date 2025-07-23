@@ -20,7 +20,7 @@ const Header = () => {
             variant="outline" 
             size="sm"
             className="bg-green-500 hover:bg-green-600 text-white border-green-500"
-            onClick={() => window.open('https://wa.me/79384220696', '_blank')}
+            onClick={() => window.open('https://wa.me/message/GAFUY45DP7LNF1', '_blank')}
           >
             <Icon name="MessageCircle" size={16} className="mr-2" />
             WhatsApp
