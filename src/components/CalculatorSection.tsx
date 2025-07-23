@@ -47,9 +47,9 @@ const CalculatorSection = () => {
                     </Label>
                     <div className="grid grid-cols-1 gap-3">
                       {[
-                        { value: 'cosmetic', label: 'Стандарт', desc: 'Покраска, обои, плитка' },
-                        { value: 'capital', label: 'Стандарт +', desc: 'Перепланировка, сантехника' },
-                        { value: 'luxury', label: 'Дизайнерский', desc: 'Дизайнерский ремонт' }
+                        { value: 'cosmetic', label: 'Стандарт', desc: 'Покраска, обои, плитка', price: '15,000 ₽/м²' },
+                        { value: 'capital', label: 'Стандарт +', desc: 'Перепланировка, сантехника', price: '20,000 ₽/м²' },
+                        { value: 'luxury', label: 'Дизайнерский', desc: 'Дизайнерский ремонт', price: '26,000 ₽/м²' }
                       ].map((type) => (
                         <Button
                           key={type.value}
@@ -61,8 +61,11 @@ const CalculatorSection = () => {
                           }`}
                           onClick={() => setRepairType(type.value)}
                         >
-                          <div>
-                            <div className="font-semibold">{type.label}</div>
+                          <div className="flex-1">
+                            <div className="flex justify-between items-center mb-1">
+                              <div className="font-semibold">{type.label}</div>
+                              <div className="font-semibold text-sm">{type.price}</div>
+                            </div>
                             <div className="text-sm opacity-75">{type.desc}</div>
                           </div>
                         </Button>
