@@ -15,7 +15,18 @@ const Index = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <div className="min-h-screen bg-beige-300 font-roboto">
+    <div 
+      className="min-h-screen font-roboto relative"
+      style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/165a8553-1117-45e0-b670-214f28fa812a.jpeg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      <div className="absolute inset-0 bg-beige-300/60 backdrop-blur-[1px]"></div>
+      <div className="relative z-10">
       <Header />
       
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
@@ -38,6 +49,7 @@ const Index = () => {
       
       <CalculatorSection />
       <Footer />
+      </div>
     </div>
   );
 };
