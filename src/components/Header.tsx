@@ -29,7 +29,7 @@ const Header = () => {
             variant="outline" 
             size="sm"
             className="bg-blue-500 hover:bg-blue-600 text-white border-blue-500"
-            onClick={() => window.open('https://t.me/yourusername', '_blank')}
+            onClick={() => window.open('https://t.me/+79937720696', '_blank')}
           >
             <Icon name="Send" size={16} className="mr-2" />
             Telegram
