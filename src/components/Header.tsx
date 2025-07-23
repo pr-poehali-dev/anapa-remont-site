@@ -5,8 +5,15 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="font-montserrat font-bold text-2xl text-construction-black">
-          Анапа Ремонт и Дизайн 2025
+        <div className="flex items-center gap-3">
+          <img 
+            src="https://cdn.poehali.dev/files/e47f6115-10c2-4de8-acb5-830126c5d7ad.jpeg" 
+            alt="Ремонт и Дизайн" 
+            className="h-12 w-auto"
+          />
+          <span className="font-montserrat font-bold text-xl text-construction-black">
+            Анапа 2025
+          </span>
         </div>
         <div className="flex gap-4">
           <Button 
